@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shortcut — Sinarmas Multifinance</title>
+<link rel="stylesheet" href="style.css?v=7" />
+</head>
+<body>
+
+<div id="notification-container" aria-live="polite"></div>
+
+<div class="app-shell">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar">
+    <div class="sidebar__brand">
+      <div class="sidebar__logo">SM</div>
+      <div class="sidebar__brand-text">
+        <div class="sidebar__brand-name" id="brand-name">Sinarmas</div>
+        <div class="sidebar__brand-subtitle" id="brand-subtitle">multifinance</div>
+      </div>
+    </div>
+
+    <p class="sidebar__section-label">Menu Utama</p>
+    <ul class="sidebar__nav">
+      <li><a href="#" class="sidebar__link">
+        <span class="sidebar__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 11.5 12 4l8 7.5"/><path d="M6 10v9h12v-9"/></svg></span>
+        Dashboard
+      </a></li>
+      <li><a href="#" class="sidebar__link is-active" id="nav-link-shortcut">
+        <span class="sidebar__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 3 4 14h6l-1 7 9-11h-6l1-7Z"/></svg></span>
+        Shortcut
+      </a></li>
+      <li><a href="#" class="sidebar__link" id="nav-link-cabang">
+        <span class="sidebar__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="10" width="16" height="10" rx="1"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></svg></span>
+        Data Cabang
+      </a></li>
+      <li><a href="#" class="sidebar__link">
+        <span class="sidebar__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="3" width="14" height="18" rx="1.5"/><path d="M8 8h8M8 12h2m3 0h2M8 16h2m3 0h2"/></svg></span>
+        Calculator
+      </a></li>
+      <li><a href="#" class="sidebar__link">
+        <span class="sidebar__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H12v18H6.5A2.5 2.5 0 0 1 4 18.5v-13Z"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H12v18h5.5a2.5 2.5 0 0 0 2.5-2.5v-13Z"/></svg></span>
+        Panduan
+      </a></li>
+    </ul>
+
+    <div class="sidebar__divider"></div>
+    <p class="sidebar__section-label">Lainnya</p>
+    <ul class="sidebar__nav">
+      <li><a href="#" class="sidebar__link">
+        <span class="sidebar__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 0 1-4 0v-.09A1.7 1.7 0 0 0 9 19.36a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.64 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 0 1 0-4h.09A1.7 1.7 0 0 0 4.64 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.64a1.7 1.7 0 0 0 1-1.55V3a2 2 0 0 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.36 9a1.7 1.7 0 0 0 1.55 1H21a2 2 0 0 1 0 4h-.09a1.7 1.7 0 0 0-1.55 1Z"/></svg></span>
+        Pengaturan
+      </a></li>
+      <li><a href="#" class="sidebar__link">
+        <span class="sidebar__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 16v-5M12 8h.01"/></svg></span>
+        Tentang
+      </a></li>
+    </ul>
+
+    <div class="sidebar__spacer"></div>
+
+    <div class="sidebar__user">
+      <div class="sidebar__avatar" id="user-initials">AP</div>
+      <div>
+        <div class="sidebar__user-name" id="user-name">Aditya Pratama</div>
+        <div class="sidebar__user-role" id="user-role">Customer Care</div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ============ MAIN CONTENT ============ -->
+  <main class="main">
+
+    <header class="topbar">
+      <div>
+        <h1 class="topbar__title">Shortcut</h1>
+        <p class="topbar__subtitle">Temukan template &amp; informasi cepat yang kamu butuhkan.</p>
+      </div>
+      <div class="topbar__meta">
+        <div class="topbar__time">
+          <div class="topbar__clock" id="realtime-clock">--:--:--</div>
+          <div class="topbar__date" id="realtime-date">-</div>
+        </div>
+        <button class="topbar__bell" aria-label="Notifikasi">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <div id="view-shortcut">
+      <section class="search-panel">
+        <p class="search-panel__label">Cari Shortcut</p>
+        <div class="search-row">
+          <div class="search-input-wrap">
+            <input
+              type="text"
+              id="search-input"
+              class="search-input"
+              placeholder="Ketik kode shortcut (contoh: bpkb1, pay1, appk1, dll)"
+              autocomplete="off"
+            />
+            <button class="search-clear" id="search-clear" aria-label="Bersihkan pencarian">&times;</button>
+          </div>
+          <button class="btn search-button" id="search-button">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+            Cari
+          </button>
+        </div>
+        <div class="search-hint-row">
+          <span>⚡ Ketik kode shortcut atau tekan <kbd>Enter</kbd> untuk mencari &nbsp;•&nbsp; <kbd>Ctrl</kbd> + <kbd>K</kbd> untuk fokus cepat</span>
+          <label class="auto-copy-control">
+            Auto Copy
+            <span class="switch">
+              <input type="checkbox" id="auto-copy-toggle" checked />
+              <span class="switch__track"></span>
+            </span>
+          </label>
+        </div>
+      </section>
+
+      <section class="popular-panel">
+        <p class="section-title">Shortcut Populer</p>
+        <div class="popular-list" id="popular-list"></div>
+      </section>
+
+      <div class="content-grid">
+        <section id="result-area"></section>
+
+        <aside>
+          <div class="info-card">
+            <h4>Tentang Variabel</h4>
+            <p style="margin:0; font-size:12.5px; color:var(--grey-500); line-height:1.6;">
+              Template dapat berisi placeholder seperti <code style="font-family:var(--font-mono); background:var(--red-50); color:var(--red-600); padding:1px 5px; border-radius:4px;">{{Nama}}</code>
+              atau <code style="font-family:var(--font-mono); background:var(--red-50); color:var(--red-600); padding:1px 5px; border-radius:4px;">{{PPK}}</code>.
+              Variabel ini tetap ikut ter-copy apa adanya — tinggal diisi manual
+              setelah paste ke chat/email.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h4>Cara Penggunaan</h4>
+            <ol class="howto-list">
+              <li><span class="howto-list__num">1</span><span>Ketik kode shortcut pada kolom pencarian.</span></li>
+              <li><span class="howto-list__num">2</span><span>Tekan Enter atau klik Cari.</span></li>
+              <li><span class="howto-list__num">3</span><span>Hasil akan otomatis disalin ke clipboard.</span></li>
+              <li><span class="howto-list__num">4</span><span>Paste (Ctrl+V) untuk menggunakan template.</span></li>
+            </ol>
+          </div>
+
+          <button class="btn btn--copy-secondary" id="refresh-button" style="width:100%; justify-content:center; padding:10px;">
+            Refresh Data
+          </button>
+        </aside>
+      </div>
+    </div>
+
+    <div id="view-cabang" style="display:none;">
+      <section class="search-panel">
+        <p class="search-panel__label">Cari Cabang</p>
+        <div class="search-row">
+          <div class="search-input-wrap">
+            <input
+              type="text"
+              id="cabang-search-input"
+              class="search-input"
+              placeholder="Ketik nama kota atau cabang (contoh: Bandung, Surabaya, Medan, dll)"
+              autocomplete="off"
+            />
+            <button class="search-clear" id="cabang-search-clear" aria-label="Bersihkan pencarian">&times;</button>
+          </div>
+          <button class="btn search-button" id="cabang-search-button">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+            Cari
+          </button>
+        </div>
+        <div class="search-hint-row">
+          <span>🏢 Ketik nama kota / cabang, atau tekan <kbd>Enter</kbd> untuk mencari</span>
+        </div>
+      </section>
+
+      <section id="cabang-result-area"></section>
+    </div>
+
+    <p style="text-align:center; color:var(--grey-400); font-size:11.5px; margin-top:36px;">
+      © 2026 <span id="footer-brand">Sinarmas Multifinance</span> · Internal Use Only · Confidential
+    </p>
+  </main>
+</div>
+
+<div id="variable-modal-overlay" class="modal-overlay">
+  <div class="modal-box" id="variable-modal-box"></div>
+</div>
+
+<!-- Config dulu, baru service, komponen, lalu app -->
+<script src="config.js?v=7"></script>
+<script src="spreadsheet.js?v=7"></script>
+<script src="notification.js?v=7"></script>
+<script src="shortcut.js?v=7"></script>
+<script src="cabang-data.js?v=7"></script>
+<script src="cabang.js?v=7"></script>
+<script src="sidebar.js?v=7"></script>
+<script src="app.js?v=7"></script>
+</body>
+</html>
